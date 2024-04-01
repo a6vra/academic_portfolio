@@ -1,0 +1,53 @@
+
+
+/* Basic styling */
+body {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 17px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 400;
+  
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #346353;
+    border: 4px double #A6A6A6;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: circle ;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #16ce88;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #a3a3a3;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
